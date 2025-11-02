@@ -52,3 +52,89 @@ You can view the webpage by opening the `index.html` file in your browser or by 
 1. Clone the repository:  
    ```bash
    git clone https://github.com/Colby04/My-Professional-Webpage.git
+    ```
+
+---
+
+## Python demos (folder: `python.demo/`)
+
+My project includes a small Python isolated environment in `python.demo/` with:
+- `demo.api.py` — a tiny Flask API with an HTML homepage and JSON endpoints
+- `expense_tracker.py` — a simple JSON-backed expense tracker
+- `shipment_tool.py` — a small utility demonstrating classes and time math
+- `requirements.txt` — pinned dependencies (Flask)
+- `.gitignore` — ignores `.venv/` and Python caches for a clean repo
+
+### Quick start
+
+From the repo root:
+
+```zsh
+cd "python.demo"
+python3 -m venv .venv
+".venv/bin/python" -m pip install --upgrade pip
+".venv/bin/pip" install -r requirements.txt
+```
+
+Notes
+- The virtual environment lives in `python.demo/.venv/` and is ignored by git.
+- You can safely delete and recreate it any time using the commands above.
+
+### Run the Flask demo API (`demo.api.py`)
+
+Start the server:
+
+```zsh
+cd "python.demo"
+".venv/bin/python" demo.api.py
+```
+
+Open in your browser:
+- HTML homepage (lists items): http://127.0.0.1:5000/
+- All items (JSON): http://127.0.0.1:5000/items
+- Single item (JSON): http://127.0.0.1:5000/items/1
+
+Add an item (POST JSON):
+
+```zsh
+curl -X POST http://127.0.0.1:5000/items \
+   -H "Content-Type: application/json" \
+   -d '{"name":"Bananas","price":1.25}'
+```
+
+Optional: run via Flask’s CLI (with auto-reload):
+
+```zsh
+".venv/bin/python" -m flask --app demo.api run --debug
+```
+
+Troubleshooting
+- Port already in use: stop the previous server (Ctrl+C) or run on a different port:
+   ```zsh
+   ".venv/bin/python" -m flask --app demo.api run --debug --port 5050
+   ```
+- Exit code 137: the process was killed (often due to a port conflict or manual kill). Free the port and re-run.
+
+### Run the Expense Tracker (`expense_tracker.py`)
+
+This script appends expenses to a JSON file `expense_tracker.json` and prints a summary.
+
+```zsh
+cd "python.demo"
+".venv/bin/python" expense_tracker.py
+```
+
+What happens
+- Creates or updates `expense_tracker.json` with demo entries
+- Prints a total and per-category breakdown to the terminal
+
+### Run the Shipment Tool (`shipment_tool.py`)
+
+```zsh
+cd "python.demo"
+".venv/bin/python" shipment_tool.py
+```
+
+Expected output
+- Calculates and prints the average delivery time based on sample shipments
+
