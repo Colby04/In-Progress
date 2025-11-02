@@ -24,8 +24,8 @@ The goal was to create something minimal yet professional — a space that refle
 
 ## About Me
 
-My name is **Colby J. Rhodes**, and I currently work as a **Quality Assurance Analyst at Shipt**, where I’ve been part of the team for over four years.  
-I began my coding journey in the summer of 2024 through an edX bootcamp with **The University of Michigan**, completing it in **January 2025**.  
+My name is **Colby Rhodes**, and I currently work as a **Quality Assurance Analyst at Shipt**, where I’ve been part of the team for over four years.  
+I began my coding journey in the summer of 2024 through an edX bootcamp with **Michigan State University**, completing it in **January 2025**.  
 
 Technology and software engineering have always fascinated me — I love exploring how things work behind the scenes and continuously improving my skills.
 
