@@ -1,0 +1,38 @@
+[
+    {
+        "amount": 15.75,
+        "category": "Food",
+        "description": "Lunch at cafe",
+        "date": "2025-11-02 11:32"
+    },
+    {
+        "amount": 100.4,
+        "category": "Groceries",
+        "description": "Weekly groceries",
+        "date": "2025-11-02 11:32"
+    },
+    {
+        "amount": 50.69,
+        "category": "Entertainment",
+        "description": "Streaming service",
+        "date": "2025-11-02 11:32"
+    },
+    {
+        "amount": 15.75,
+        "category": "Food",
+        "description": "Lunch at cafe",
+        "date": "2025-11-02 11:35"
+    },
+    {
+        "amount": 100.4,
+        "category": "Groceries",
+        "description": "Weekly groceries",
+        "date": "2025-11-02 11:35"
+    },
+    {
+        "amount": 50.69,
+        "category": "Entertainment",
+        "description": "Streaming service",
+        "date": "2025-11-02 11:35"
+    }
+]

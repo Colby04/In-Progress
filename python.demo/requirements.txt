@@ -1,0 +1,2 @@
+# Minimal, pinned dependencies for the demo API
+Flask==3.1.2
