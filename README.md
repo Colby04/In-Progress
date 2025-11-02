@@ -56,14 +56,14 @@ You can view the webpage by opening the `index.html` file in your browser or by 
 
 ---
 
-## Python demos (folder: `python.demo/`)
+## Python demos (folder: `python.demo`)
 
-My project includes a small Python isolated environment in `python.demo/` with:
-- `demo.api.py` — a tiny Flask API with an HTML homepage and JSON endpoints
-- `expense_tracker.py` — a simple JSON-backed expense tracker
-- `shipment_tool.py` — a small utility demonstrating classes and time math
-- `requirements.txt` — pinned dependencies (Flask)
-- `.gitignore` — ignores `.venv/` and Python caches for a clean repo
+My project includes a small Python isolated environment in `python.demo` with:
+- `demo.api.py` — a tiny Flask API with an HTML homepage and JSON endpoints.
+- `expense_tracker.py` — a simple JSON-backed expense tracker.
+- `shipment_tool.py` — a small utility demonstrating classes and time math.
+- `requirements.txt` — pinned dependencies (Flask).
+- `.gitignore` — ignores `.venv` and Python caches for a clean repo.
 
 ### Quick start
 
@@ -77,7 +77,7 @@ python3 -m venv .venv
 ```
 
 Notes
-- The virtual environment lives in `python.demo/.venv/` and is ignored by git.
+- The virtual environment lives in `python.demo` and is ignored by git.
 - You can safely delete and recreate it any time using the commands above.
 
 ### Run the Flask demo API (`demo.api.py`)
@@ -125,8 +125,8 @@ cd "python.demo"
 ```
 
 What happens
-- Creates or updates `expense_tracker.json` with demo entries
-- Prints a total and per-category breakdown to the terminal
+- Creates or updates `expense_tracker.json` with demo entries.
+- Prints a total and per-category breakdown to the terminal.
 
 ### Run the Shipment Tool (`shipment_tool.py`)
 
@@ -136,5 +136,5 @@ cd "python.demo"
 ```
 
 Expected output
-- Calculates and prints the average delivery time based on sample shipments
+- Calculates and prints the average delivery time based on sample shipments.
 
