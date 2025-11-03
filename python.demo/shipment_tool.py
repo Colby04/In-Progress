@@ -1,4 +1,4 @@
-"""A simple Python Utility demo for clean and modular code """
+"""A simple Python Utility demo for clean and modular code; Author: Colby Rhodes."""
 
 from datetime import datetime
 

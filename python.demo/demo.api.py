@@ -1,4 +1,4 @@
-"""A simple REST-style API built with Flask. Demonstrates backend fundamentals — routing, JSON responses, and basic data handling."""
+"""A simple REST-style API built with Flask. Demonstrates backend fundamentals — routing, JSON responses, and basic data handling. Author: Colby Rhodes."""
 
 from flask import Flask, jsonify, request, render_template_string
 
