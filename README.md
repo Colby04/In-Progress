@@ -138,3 +138,23 @@ cd "python.demo"
 Expected output
 - Calculates and prints the average delivery time based on sample shipments.
 
+---
+## Technologies Used
+- **HTML** – Structure and semantic markup  
+- **CSS** – Styling and responsive layout  
+- **Python 3.14.0** – Backend scripting and utilities  
+- **Flask** – Lightweight web framework for REST API  
+- **Git / GitHub** – Version control and hosting
+
+---
+## Future Improvements
+- Add a contact form powered by Flask or a backend API  
+- Integrate a live expense tracker dashboard (using JavaScript or React)  
+- Deploy Flask demo to Render for live API testing
+
+---
+
+## License
+This project is open source under the [MIT License](LICENSE).
+
+---
